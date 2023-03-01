@@ -6,7 +6,7 @@ import subprocess
 
 
 targetip = str(input("Enter the Target or victim IP address"))
-spoofip = str(input("Enter the Gateway/Router IP address"))
+spoofip =  str(input("Enter the Gateway/Router IP address"))
 
 
 
