@@ -1,12 +1,12 @@
-#!/bin/python
+#!/usr/bin/python3
 
 import scapy.all as scapy 
 import time
 import subprocess
 
 
-targetip = '172.16.100.23'
-spoofip = '172.16.100.1'
+targetip = str(input("Enter the Target or victim IP address"))
+spoofip = str(input("Enter the Gateway/Router IP address"))
 
 
 
